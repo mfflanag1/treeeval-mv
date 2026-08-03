@@ -1,0 +1,13 @@
+To: ahenz@csail.mit.edu, epyne@mit.edu, sragavan@mit.edu
+Subject: Question about catalyst packing in your TreeEval paper
+
+Dear Alexandra, Edward, and Seyoon,
+
+I've been working through your matching-vector TreeEval paper and think Remark 2.3 may allow a slightly tighter binary-tape implementation than the one stated. If the D=Theta(d) ring coordinates are packed as an integer x<m^D, an arbitrary b-bit tape value can be written y=q m^D+x with one saved quotient bit. Coordinate updates then become in-place binary additions of ((x_i+a mod m)-x_i)m^i, with the required arithmetic generated in logspace. Unless I am missing a machine-model issue, this seems to change the catalyst bound from O(d log(dm)) to O(d log m) while keeping polynomial time.
+
+I've attached a two-page note with the derivation and the checks I used. It also records two smaller observations I encountered while reproducing the argument: the fixed-modulus dimension boundary, which I think is already implicit in your footnote to Remark 3.4, and a characteristic-local version of the selector. Neither closes the main gap.
+
+Would you be willing to tell me whether the packed-coordinate argument is sound in your model, and whether it is best understood as the BCKLS compression remark specialized to your registers?
+
+Best,
+Max

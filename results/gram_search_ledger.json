@@ -1,0 +1,314 @@
+{
+  "encoding": {
+    "kind": "exact QF_BV factor encoding",
+    "overflow_guard": "component width holds d*(p-1)^2 before modular reduction",
+    "solver_witness_check": "explicit CRT reconstruction plus primary, independent CRT, and Gram checks"
+  },
+  "exact_characteristic_free_thresholds": [
+    {
+      "component_ranks": [
+        2,
+        2
+      ],
+      "dimension": 2,
+      "gram_verified": true,
+      "independent_crt_verified": true,
+      "lower_bound_construction": "coordinate-equality product",
+      "maximum_N": 4,
+      "primary_verified": true,
+      "primes": [
+        3,
+        5
+      ],
+      "upper_bound_proof": "zero-one determinant lift to Q, then rank(A_1 hadamard ... hadamard A_t) <= product rank(A_i)",
+      "witness": {
+        "dimension": 2,
+        "modulus": 15,
+        "size": 4,
+        "u": [
+          [
+            1,
+            0
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "v": [
+          [
+            1,
+            0
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "component_ranks": [
+        2,
+        2,
+        2
+      ],
+      "dimension": 2,
+      "gram_verified": true,
+      "independent_crt_verified": true,
+      "lower_bound_construction": "coordinate-equality product",
+      "maximum_N": 8,
+      "primary_verified": true,
+      "primes": [
+        3,
+        5,
+        7
+      ],
+      "upper_bound_proof": "zero-one determinant lift to Q, then rank(A_1 hadamard ... hadamard A_t) <= product rank(A_i)",
+      "witness": {
+        "dimension": 2,
+        "modulus": 105,
+        "size": 8,
+        "u": [
+          [
+            1,
+            0
+          ],
+          [
+            91,
+            15
+          ],
+          [
+            85,
+            21
+          ],
+          [
+            70,
+            36
+          ],
+          [
+            36,
+            70
+          ],
+          [
+            21,
+            85
+          ],
+          [
+            15,
+            91
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "v": [
+          [
+            1,
+            0
+          ],
+          [
+            91,
+            15
+          ],
+          [
+            85,
+            21
+          ],
+          [
+            70,
+            36
+          ],
+          [
+            36,
+            70
+          ],
+          [
+            21,
+            85
+          ],
+          [
+            15,
+            91
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    }
+  ],
+  "first_exceptional_case": {
+    "N_10_global_search": {
+      "constraints": 416,
+      "encoding_sha256": "a30c44fc740a054acb4a2cb8ea08134c5dea0ff10617aed350131ca61e4251b4",
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "solver_seed": 0,
+      "status": "timeout",
+      "variables": 120,
+      "wall_seconds": 30.040326
+    },
+    "baseline_N": 9,
+    "dimension": 3,
+    "extension_scope_warning": "failure only proves maximality of each fixed solver witness",
+    "fixed_witness_extension_trials": [
+      {
+        "base_status": "sat",
+        "combinations_checked": 224,
+        "component_candidates": [
+          14,
+          16
+        ],
+        "extended_to_8": false,
+        "seed": 0
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 196,
+        "component_candidates": [
+          14,
+          14
+        ],
+        "extended_to_8": false,
+        "seed": 1
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 256,
+        "component_candidates": [
+          16,
+          16
+        ],
+        "extended_to_8": false,
+        "seed": 2
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 180,
+        "component_candidates": [
+          9,
+          20
+        ],
+        "extended_to_8": false,
+        "seed": 3
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 180,
+        "component_candidates": [
+          9,
+          20
+        ],
+        "extended_to_8": false,
+        "seed": 4
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 432,
+        "component_candidates": [
+          27,
+          16
+        ],
+        "extended_to_8": false,
+        "seed": 5
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 320,
+        "component_candidates": [
+          20,
+          16
+        ],
+        "extended_to_8": false,
+        "seed": 6
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 240,
+        "component_candidates": [
+          15,
+          16
+        ],
+        "extended_to_8": false,
+        "seed": 7
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 320,
+        "component_candidates": [
+          20,
+          16
+        ],
+        "extended_to_8": false,
+        "seed": 8
+      },
+      {
+        "base_status": "sat",
+        "combinations_checked": 324,
+        "component_candidates": [
+          27,
+          12
+        ],
+        "extended_to_8": false,
+        "seed": 9
+      }
+    ],
+    "interpretation": "timeout is neither a construction nor a no-go; characteristic 3 is the first odd prime that can hide a nonzero 4x4 zero-one minor",
+    "primes": [
+      3,
+      5
+    ],
+    "rank_lift_safe_by_prime": {
+      "3": false,
+      "5": true
+    }
+  },
+  "independent_smt_cross_check": {
+    "N_4": {
+      "constraints": 80,
+      "encoding_sha256": "23a633c2188b3795672b081b62a49e64070b061b973ee887f8d8e77958e40bb9",
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "solver_seed": 0,
+      "status": "sat",
+      "variables": 32,
+      "wall_seconds": 0.245517
+    },
+    "N_5": {
+      "constraints": 114,
+      "encoding_sha256": "329e19bf89609fb2e0a9510443d9fbc4ad6e806a90b4acc2f1f2da409f211d85",
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "solver_seed": 0,
+      "status": "unsat",
+      "variables": 40,
+      "wall_seconds": 0.692243
+    },
+    "conclusion": "maximum N is exactly 4",
+    "dimension": 2,
+    "primes": [
+      3,
+      5
+    ]
+  },
+  "object": {
+    "description": "binary component Gram matrices G_i with rank_Fpi(G_i)<=d, diagonal one, and entrywise product equal to I_N",
+    "equivalence": "necessary and sufficient for an HPR-convention canonical MV family"
+  }
+}

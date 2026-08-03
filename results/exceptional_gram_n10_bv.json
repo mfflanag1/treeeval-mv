@@ -1,0 +1,654 @@
+{
+  "all_cases_unsat": true,
+  "cases": [
+    {
+      "case": "rank_3_3_basis_0_1_2",
+      "constraints": 497,
+      "encoding_sha256": "390edf8a5e37fffd3b0b3fcf92d2f3504d3dc0e829e73376a2af9e2ccd8ffacb",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          1,
+          2
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 3.905342
+    },
+    {
+      "case": "rank_3_3_basis_0_1_3",
+      "constraints": 497,
+      "encoding_sha256": "acc0e126360e55907116a0e86d71d138b26004aec3e12fecef08cf14f6765dab",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          1,
+          3
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 7.90903
+    },
+    {
+      "case": "rank_3_3_basis_0_1_4",
+      "constraints": 497,
+      "encoding_sha256": "42ee4c85ca8c37c1702b84852699b50de31e67c327978c014bd8e8af45ac21a0",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          1,
+          4
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 7.83109
+    },
+    {
+      "case": "rank_3_3_basis_0_1_5",
+      "constraints": 497,
+      "encoding_sha256": "b89b2e8ab88d1f4124bdccbe3a98839bc3863b87071b41dae0ddf688592024c5",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          1,
+          5
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.494993
+    },
+    {
+      "case": "rank_3_3_basis_0_1_6",
+      "constraints": 497,
+      "encoding_sha256": "df75bb7577c7c610a8195d26652ec04b4cdd6a4a6df9913a47cc4017f1653f3e",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          1,
+          6
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.558923
+    },
+    {
+      "case": "rank_3_3_basis_0_1_7",
+      "constraints": 497,
+      "encoding_sha256": "00510cfd828dd91fc3c5892c82a967228292e07b995f92cf8b9d1cc8b8e0a39c",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          1,
+          7
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.254446
+    },
+    {
+      "case": "rank_3_3_basis_0_1_8",
+      "constraints": 497,
+      "encoding_sha256": "c9d6eb4834deb0a9ccb82268d1209dfbbb62733d7446c0f1b2ada40aebd09abe",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          1,
+          8
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.302135
+    },
+    {
+      "case": "rank_3_3_basis_0_1_9",
+      "constraints": 497,
+      "encoding_sha256": "aabf1d2182d09aa1b5beee2b08ab24b3a081916f915d34705e73e99849d8c42a",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          1,
+          9
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.713643
+    },
+    {
+      "case": "rank_3_3_basis_0_2_3",
+      "constraints": 497,
+      "encoding_sha256": "928dcc56c1c9c1bb03699a94c47a72e1af694bff6db07de4af5a1f37d9d6c6cd",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          2,
+          3
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 8.058619
+    },
+    {
+      "case": "rank_3_3_basis_0_2_4",
+      "constraints": 497,
+      "encoding_sha256": "f91d40fe50a87fd586e4fd5b55663dafdda094f15617b725d5687e1642a8e73f",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          2,
+          4
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.825106
+    },
+    {
+      "case": "rank_3_3_basis_0_2_5",
+      "constraints": 497,
+      "encoding_sha256": "3f3b171aa9cb13bc0cfb048c08e38d1092715cf28b989362bee0f0bf6c837643",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          2,
+          5
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.894611
+    },
+    {
+      "case": "rank_3_3_basis_0_2_6",
+      "constraints": 497,
+      "encoding_sha256": "628762ff6ed1f98a609a0e02b79bb48bd171d2d070151a47f542a41b20f41ad4",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          2,
+          6
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.083317
+    },
+    {
+      "case": "rank_3_3_basis_0_2_7",
+      "constraints": 497,
+      "encoding_sha256": "5ef502f747d395db60813e0453fcc204bd4284fde906845eafb2ba49a344915d",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          2,
+          7
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 5.844651
+    },
+    {
+      "case": "rank_3_3_basis_0_2_8",
+      "constraints": 497,
+      "encoding_sha256": "65ec4db152b5f15152779f50bb86ae56881215d17506aa0662bca81cec50cddd",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          2,
+          8
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.100065
+    },
+    {
+      "case": "rank_3_3_basis_0_2_9",
+      "constraints": 497,
+      "encoding_sha256": "69ad6ab7c4c51637a4ff4613b0c5a53e221642898b924f253aafc48ec89993a9",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          2,
+          9
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.859986
+    },
+    {
+      "case": "rank_3_3_basis_0_3_4",
+      "constraints": 497,
+      "encoding_sha256": "4136a982f686b34e6239998753ca2f9e78551f34f4d9b367dd6dba1d9fc09e51",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          3,
+          4
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 15.700617
+    },
+    {
+      "case": "rank_3_3_basis_0_3_5",
+      "constraints": 497,
+      "encoding_sha256": "84f1f5e359f590cec392e20a2ae04114b6f12cb84058c4613f981caef805c5be",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          3,
+          5
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 12.99883
+    },
+    {
+      "case": "rank_3_3_basis_0_3_6",
+      "constraints": 497,
+      "encoding_sha256": "551e1362b03357e0965487aa942070c06f66a10f959b13bb1cf42953520177b1",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          3,
+          6
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 14.398886
+    },
+    {
+      "case": "rank_3_3_basis_0_3_7",
+      "constraints": 497,
+      "encoding_sha256": "7cd5475356fd73364c8a536ae7a2d7b95eb53f9b490a83cca66acea5b8d8ccea",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          3,
+          7
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 11.59441
+    },
+    {
+      "case": "rank_3_3_basis_0_3_8",
+      "constraints": 497,
+      "encoding_sha256": "3c988fcb790d3c6873a5a5055eb93c8551c3d5cecb1163c1201a9549c1abdbbd",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          3,
+          8
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 9.271055
+    },
+    {
+      "case": "rank_3_3_basis_0_3_9",
+      "constraints": 497,
+      "encoding_sha256": "6659e9ab8e76bb0a39ec2cd1ca4deeea43b06a0ffca48114f1af20e231d4c7f1",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          3,
+          9
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 15.12794
+    },
+    {
+      "case": "rank_3_3_basis_0_4_5",
+      "constraints": 497,
+      "encoding_sha256": "32be49ceaf0ba902762d596a5fb9446e59894f8120a6bdde03d9d660a1d21e69",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          4,
+          5
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 9.962759
+    },
+    {
+      "case": "rank_3_3_basis_0_4_6",
+      "constraints": 497,
+      "encoding_sha256": "9b26437baea73733625d31bb2fc6459ce6be7f631c150cd144792185697f4104",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          4,
+          6
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 8.439782
+    },
+    {
+      "case": "rank_3_3_basis_0_4_7",
+      "constraints": 497,
+      "encoding_sha256": "c317128cf3bebb0fd9ed84e6675bcd6241ed95844913ef9640086b5db6b5b97b",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          4,
+          7
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 8.907876
+    },
+    {
+      "case": "rank_3_3_basis_0_4_8",
+      "constraints": 497,
+      "encoding_sha256": "6972da838a31b8db5f594991c850ae4a50c8187ae014135166f79b16c7e5e55c",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          4,
+          8
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 9.17559
+    },
+    {
+      "case": "rank_3_3_basis_0_4_9",
+      "constraints": 497,
+      "encoding_sha256": "08d0d7a9a8ee606fe8bffc77f36728b78fc775c799ad67431e74284998bc4c69",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          4,
+          9
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 8.191067
+    },
+    {
+      "case": "rank_3_3_basis_0_5_6",
+      "constraints": 497,
+      "encoding_sha256": "99e4ce69335d30d851d37335be7ad5267a3c0147e3aaf91ee47b17f3852ff98b",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          5,
+          6
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 9.406284
+    },
+    {
+      "case": "rank_3_3_basis_0_5_7",
+      "constraints": 497,
+      "encoding_sha256": "7e7dc3eb600a9debc668fc33df852dcf2d01718ee08cb0fd6a1148a9514243f2",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          5,
+          7
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 8.720316
+    },
+    {
+      "case": "rank_3_3_basis_0_5_8",
+      "constraints": 497,
+      "encoding_sha256": "89451f2774dac6ee8de0c705fa5be1b85cab73d02a83131d1e5c30ba7053ebe8",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          5,
+          8
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.568531
+    },
+    {
+      "case": "rank_3_3_basis_0_5_9",
+      "constraints": 497,
+      "encoding_sha256": "9762797230bf30ae120c841249fbf3ec8f4aea498354e50dc12bbdd5dd970171",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          5,
+          9
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 9.024954
+    },
+    {
+      "case": "rank_3_3_basis_0_6_7",
+      "constraints": 497,
+      "encoding_sha256": "3ef4fd425003784541ddb293d26cbd6b4644f9369c97757b2cd83c8e960c26c7",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          6,
+          7
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 11.235116
+    },
+    {
+      "case": "rank_3_3_basis_0_6_8",
+      "constraints": 497,
+      "encoding_sha256": "b12b20795e0e0d2b4112fc400e24b0c3b7e6e2eea7818eb57056bf6be4cecccd",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          6,
+          8
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 9.192339
+    },
+    {
+      "case": "rank_3_3_basis_0_6_9",
+      "constraints": 497,
+      "encoding_sha256": "0c5c376efea5ea42af1dd27569b67394a4eb8b0f9c7446ffc1c4714ad5577080",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          6,
+          9
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 7.374182
+    },
+    {
+      "case": "rank_3_3_basis_0_7_8",
+      "constraints": 497,
+      "encoding_sha256": "df93e961a34579d973eaaa33bc7acff0401a1566b31f57d6769f8c0785b8e3ce",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          7,
+          8
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 8.478398
+    },
+    {
+      "case": "rank_3_3_basis_0_7_9",
+      "constraints": 497,
+      "encoding_sha256": "c744708c7f3ebea5442e59c8cabd4cf931fe3be76088a7215a6633536693e4a6",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          7,
+          9
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 6.896957
+    },
+    {
+      "case": "rank_3_3_basis_0_8_9",
+      "constraints": 497,
+      "encoding_sha256": "434e5bad547f9eed0d9fd5c71209e0aabf5efb4d639cfc68db0e4afb94d4049f",
+      "options": {
+        "basis_component": 0,
+        "other_basis_labels": [
+          0,
+          8,
+          9
+        ]
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 7.296976
+    },
+    {
+      "case": "rank_3_le_2",
+      "constraints": 478,
+      "encoding_sha256": "42781f3236a9b90b01461763035f1beb9d4544f180c72b258d56109c1c29027c",
+      "options": {
+        "basis_component": 0,
+        "other_rank_bound": 2
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 2.588956
+    },
+    {
+      "case": "rank_le_2_3",
+      "constraints": 478,
+      "encoding_sha256": "d87515b94c39ddb21c411582ba6b99f51e2302510e8f03fa01dd1bdb9d81a222",
+      "options": {
+        "basis_component": 1,
+        "other_rank_bound": 2
+      },
+      "solver": "Z3 version 5.0.0 - 64 bit",
+      "status": "unsat",
+      "variables": 120,
+      "wall_seconds": 1.280938
+    }
+  ],
+  "claim": "maximum canonical HPR family size over Z_15 in dimension 3 is 9",
+  "conclusion": "maximum N is exactly 9",
+  "encoding": "bv",
+  "exhaustive_split": {
+    "rank_3_3_basis_argument": "normalize a U basis containing label 0 in the mod-3 component; enumerate the two additional basis labels containing label 0 in the mod-5 component",
+    "rank_3_3_cases": 36,
+    "rank_3_le_2_cases": 2,
+    "rank_argument": "if both binary component ranks are at most 2, determinant lift and the rational Hadamard rank inequality give N<=4"
+  },
+  "lower_bound": "the coordinate-equality product family has N=9",
+  "upper_bound_target": "N=10 is impossible"
+}
