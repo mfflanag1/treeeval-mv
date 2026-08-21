@@ -20,6 +20,11 @@ Its structured-kernel factorizer and implicit-vector prototype are executable;
 the report keeps polynomial-time composition as a failed gate, not a claimed
 consequence.
 
+The campaign is intentionally parked after a dated frontier refresh in
+[`harvest_closeout_2026-08-21.md`](docs/harvest_closeout_2026-08-21.md). It
+records the new fixed-modulus 3-restricted upper bound, the unanswered author
+query, and the concrete gates required before this line should be reopened.
+
 The consolidated outcome and surviving target are in
 [`docs/breakthrough_report.md`](docs/breakthrough_report.md).
 
